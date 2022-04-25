@@ -92,6 +92,7 @@ group by title
 order by (count(title)) desc;
 
 
+<<<<<<< HEAD
 -- List of managers per department
 SELECT  dm.dept_no,
         d.dept_name,
@@ -142,4 +143,6 @@ INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
 
 
+=======
+>>>>>>> 7e4744680e4bd1eadf0861cf5c802167c859f2dd
 
